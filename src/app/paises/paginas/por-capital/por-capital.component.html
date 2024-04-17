@@ -1,0 +1,7 @@
+<div id="divCapital">
+    <h1>Búsqueda por capital</h1>
+    <hr/>
+    <app-searchbox (onValue)="buscarPorCapital($event)"></app-searchbox>
+    <hr/>
+    <app-tabla [pais]="capital"></app-tabla>
+</div>
